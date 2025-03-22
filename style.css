@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    height: 11vh;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(10px);  
+    background-color: rgba(34, 27, 27, 0.5);
+    color: white;
+    position: fixed;
+    top: 0;
+}
+.navdiv{
+    font-size: 3.8vmax;
+    margin-left: 94px;
+    font-weight: bold;
+}
+.navdiv1{
+    display: flex;
+    width: 50%;
+}
+.navdiv1 a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+.navdiv1 a:hover {
+    color: #14304f;
+    font-size: 2.0vmax;
+}
+.navdiv11{
+    display: flex;
+    font-size: 4vh;
+    width: 50%;
+    justify-content: space-between;
+}
+.home{
+    width: 33.33%
+}
+.about{
+    width: 33.33%
+}
+.contact{
+    width: 33.33%
+}
+.main{
+    background-color: black;
+    color: white;
+}
+.firstsection{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    width: 95%;
+    height: 95%;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    font-size: 5vmax;
+    font-weight: bold;
+    text-align: center;
+}
+.overlay-text1{
+    text-align: center;
+    width: 80%;
+    font-size: 2.4vmax;
+    transform: translate(-50%, -50%);
+    color: rgb(124, 124, 124);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    margin-top: 58px;
+}
+.welcome{
+    margin-top: 2px;
+}
+.secondsection{
+    height: 100%;
+    width: 100%;
+}
+.sgt{
+    border: 5px grey;
+}
+.thirdsection{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(24, 30, 22);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+.footdiv{
+    display: flex;
+    height: 90%;
+}
+.footdiv1{
+    display: flex;
+    margin-top: 70px;
+}
